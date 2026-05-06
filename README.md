@@ -84,24 +84,39 @@ O objetivo principal foi construir uma aplicação com aparência moderna e func
 ```bash
 TaskFlow/
 │
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── contexts/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   ├── animations/
-│   │   └── styles/
-│
 ├── backend/
 │   ├── src/
 │   │   ├── controllers/
-│   │   ├── models/
-│   │   ├── routes/
 │   │   ├── database/
-│   │   └── services/
+│   │   ├── models/
+│   │   └── routes/
+│   │
+│   ├── .env
+│   ├── .env.example
+│   ├── app.js
+│   └── server.js
 │
-└── README.md
+├── frontend/
+│   ├── src/
+│   │   ├── animations/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── contexts/
+│   │   ├── hooks/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── types/
+│   │   ├── App.tsx
+│   │   ├── main.tsx
+│   │   └── router.tsx
+│   │
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.ts
+│
+├── .gitignore
+├── README.md
+└── package.json
 ```
 
 ---
