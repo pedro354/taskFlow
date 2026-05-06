@@ -1,0 +1,68 @@
+
+.headerContent {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 36px;
+  height: 36px;
+}
+
+.logoText {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+.divider {
+    width: 1px;
+    height: 32px;
+    background: rgba(255, 255, 255, 0.12);
+        box-shadow: 0 0 8px rgba(124, 92, 255, 0.2);
+
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  border-bottom:#644c9a solid 2px;
+    padding: 1rem;
+}
+.nav:hover{
+    border-bottom: #8b5cf6 solid 2px;
+}
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #a1a1aa;
+  font-size: 16px;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 4px;
+  transition: all 0.2s ease;
+}
+
+.navItem:hover {
+  color: #ffffff;
+}
+.navItem.active {
+  color: #8b5cf6; /* roxo elegante */
+    filter:brightness(1.4)
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}

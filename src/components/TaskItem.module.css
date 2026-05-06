@@ -1,0 +1,51 @@
+
+.title{
+    text-transform: capitalize;
+    font-weight: 500;
+      text-decoration: none;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.inputGroup{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+}
+.task {
+  background: #6f737b47;
+      padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    color: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+/* .completed {
+    opacity: 0.6;
+    transform: scale(0.98)
+}
+ */
+/*  .task.completed h2{
+    text-decoration: line-through;
+    opacity: 0.6;
+    color: #9ca3af
+}
+
+
+ *//* .task:active{
+    transform: scale(0.97);
+}
+ */
