@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { useParams } from "react-router-dom";
-import { TaskContext } from "../Contexts/TaskContext";
+import { TaskContext } from "../contexts/TaskContext";
 import styles from './Home.module.css'
 import { SubtaskItem } from "../components/SubtaskItem";
 import useTaskContext from "../hooks/useContext";
